@@ -2,8 +2,13 @@ $(document).ready(function(){
 //Begin
 	var size = 16
 	var columns = ""
+	createCanvas ()
 
-	createCanvas = function(){
+	
+
+})
+
+createCanvas = function(){
 		size = prompt("Indique la cantidad de cuadrado vite")
 
 		squareSize = 700/size;
@@ -21,8 +26,6 @@ $(document).ready(function(){
 	reset = function(){
 		$('.square').css('opacity',0)
 	}
-
-})
 
 loadCanvas = function(n,c,sz,cz){
 	//creating the canvas of size n squares
