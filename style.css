@@ -1,0 +1,19 @@
+.canvas {
+	position: center;
+	height: 700px;
+  	width: 700px;
+  	background: white;
+}
+
+.row {
+	clear: both;
+	background-color: #F2F2F2;
+	display: inline-block;
+	float: right;
+}
+.square {
+	/*width: 20px;
+	height: 20px;*/
+	background: black;
+	margin: 1px;
+}
